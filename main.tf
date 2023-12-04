@@ -9,7 +9,7 @@ terraform {
   # Update this block with the location of your terraform state file
   backend "azurerm" {
     resource_group_name  = "cloud-shell-storage-centralindia"
-    storage_account_name = "terraformgithubactions23"
+    storage_account_name = "tfstatazresearch"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
     #use_oidc             = true
